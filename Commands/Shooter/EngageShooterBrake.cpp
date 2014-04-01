@@ -6,8 +6,8 @@ EngageShooterBrake::EngageShooterBrake() {
 
 // Called just before this Command runs the first time
 void EngageShooterBrake::Initialize() {
-	printf("IsBrakeEngaged: %s\n", shooter->IsBrakeEngaged()?"Yes":"No");
-	printf("Pot Value: %d\n", shooter->GetPositionSensor());
+//	printf("IsBrakeEngaged: %s\n", shooter->IsBrakeEngaged()?"Yes":"No");
+//	printf("Pot Value: %d\n", shooter->GetPositionSensor());
 }
 
 // Called repeatedly when this Command is scheduled to run
@@ -26,7 +26,7 @@ bool EngageShooterBrake::IsFinished() {
 
 // Called once after isFinished returns true
 void EngageShooterBrake::End() {
-	printf("IsBrakeEngaged: %s\n", shooter->IsBrakeEngaged()?"Yes":"No");	
+//	printf("IsBrakeEngaged: %s\n", shooter->IsBrakeEngaged()?"Yes":"No");	
 }
 
 // Called when another command which requires one or more of the same

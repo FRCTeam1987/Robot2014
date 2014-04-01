@@ -27,7 +27,7 @@ void RunCompressor::Execute() {
 //	}
 //	if(compressor->getPressureVoltage()>PRESSURE_HIGH_CUTOFF)
 //		compressor->Stop();
-	printf("%f\n", compressor->getPressureVoltage());
+//	printf("%f\n", compressor->getPressureVoltage());
 }
 
 // Make this return true when this Command no longer needs to run execute()

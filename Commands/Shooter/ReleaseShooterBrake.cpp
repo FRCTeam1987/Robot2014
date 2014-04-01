@@ -6,7 +6,7 @@ ReleaseShooterBrake::ReleaseShooterBrake() {
 
 // Called just before this Command runs the first time
 void ReleaseShooterBrake::Initialize() {
-	printf("IsBrakeEngaged: %s\n", shooter->IsBrakeEngaged()?"Yes":"No");	
+//	printf("IsBrakeEngaged: %s\n", shooter->IsBrakeEngaged()?"Yes":"No");	
 }
 
 // Called repeatedly when this Command is scheduled to run
@@ -23,7 +23,7 @@ bool ReleaseShooterBrake::IsFinished() {
 
 // Called once after isFinished returns true
 void ReleaseShooterBrake::End() {
-	printf("IsBrakeEngaged: %s\n", shooter->IsBrakeEngaged()?"Yes":"No");	
+//	printf("IsBrakeEngaged: %s\n", shooter->IsBrakeEngaged()?"Yes":"No");	
 }
 
 // Called when another command which requires one or more of the same

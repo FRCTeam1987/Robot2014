@@ -48,14 +48,14 @@ void Shooter::ReleaseLatch()
 
 void Shooter::EngageBrake(const char *from)
 {
-	printf("Enaging Brake Solenoid (from %s)\n", from);
+//	printf("Enaging Brake Solenoid (from %s)\n", from);
 	if(IsDisabled() == false)
 		brakeSolenoid->Set(DoubleSolenoid::kReverse);
 }
 
 void Shooter::ReleaseBrake()
 {
-	printf("Releasing Brake Solenoid\n");
+//	printf("Releasing Brake Solenoid\n");
 	brakeSolenoid->Set(DoubleSolenoid::kForward);
 }
 
@@ -140,7 +140,7 @@ void Shooter::Enable(){
 
 void Shooter::Disable(){
 	isDisabled = true;
-	printf("Disabling\n");
+//	printf("Disabling\n");
 	SmartDashboard::PutString("Is Shooter Disabled:", "yes");
 }
 
@@ -163,3 +163,22 @@ int Shooter::GetPosUnprimed()
 	return m_posUnprimed;
 }
 
+bool Shooter::GetHot(){
+	return m_sawHot;
+}
+
+void Shooter::SetHot(bool hot){
+	m_sawHot = hot;
+}
+
+void Shooter::ResetHot(){
+	SetHot(false);
+}
+
+void Shooter::DecideHot(){
+	if(GetHot() == false && SmartDashboard::GetString("HOT") == "yes"){
+		SetHot(true);
+	}else{
+		SetHot(false);
+	}
+}

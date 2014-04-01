@@ -5,7 +5,7 @@ AutoDriveTimed::AutoDriveTimed() {
 	// Use requires() here to declare subsystem dependencies
 	// eg. requires(chassis);
 	Requires(chassis);
-	SetTimeout(1.5);
+	SetTimeout(1.75);
 }
 
 // Called just before this Command runs the first time

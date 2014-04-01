@@ -3,16 +3,18 @@
 #include "Commands/ExampleCommand.h"
 #include "CommandBase.h"
 #include "Commands/RunCompressor.h"
-#include "Commands/AutoOneBallHot.h"
+#include "Commands/Autonomous/AutoOneBallHot.h"
 #include "Commands/Chassis/AutoDrive.h"
 #include "XboxController.h"
-#include "Commands/AutonomousSequence.h"
-#include "Commands/Chassis/AutoDrive.h"
-#include "Commands/AutoOneBallNotHot.h"
-#include "Commands/AutoOneBallLeftNotHot.h"
-#include "Commands/AutoOneBallRightNotHot.h"
+#include "Commands/Autonomous/AutonomousSequence.h"
+#include "Commands/Chassis/AutoDriveTimed.h"
+#include "Commands/Autonomous/AutoOneBallNotHot.h"
+#include "Commands/Autonomous/AutoOneBallLeftNotHot.h"
+#include "Commands/Autonomous/AutoOneBallRightNotHot.h"
 #include "Commands/Chassis/Rotate.h"
-#include "Commands/AutoTwoBallNotHot.h"
+#include "Commands/Autonomous/AutoTwoBallNotHot.h"
+#include "Commands/Autonomous/AutoTwoBallNotHotLeft.h"
+#include "Commands/Autonomous/AutoTwoBallNotHotRight.h"
 #include "Commands/Intake/RunCollector.h"
 #include "Commands/Eyecandy/AlliancePattern.h"
 
@@ -36,13 +38,13 @@ private:
 		autoChooser = new SendableChooser();
 		autoChooser->AddDefault("Auto Hot - Uno Ballo", new AutoOneBallHot());
 		//autoChooser->AddObject("The Real Deal", new AutonomousSequence(4));
-		autoChooser->AddObject("Only Mobility", new AutoDrive(2.0));  // feet
+		autoChooser->AddObject("Only Mobility", new AutoDriveTimed());  // feet
 		autoChooser->AddObject("One Ball - Not Hot", new AutoOneBallNotHot());
 		autoChooser->AddObject("One Ball - Rotate Left - Not Hot", new AutoOneBallLeftNotHot());
 		autoChooser->AddObject("One Ball - Rotate Right - Not Hot", new AutoOneBallRightNotHot());
-		autoChooser->AddObject("Rotate Left", new Rotate(false));
-		autoChooser->AddObject("Rotate Right", new Rotate(true));
 		autoChooser->AddObject("Two Ballalisciousness - Not Hot", new AutoTwoBallNotHot());
+		autoChooser->AddObject("Two Ball - Not Hot - Rotate Left", new AutoTwoBallNotHotLeft());
+		autoChooser->AddObject("Two Ball - Not Hot - Rotate Right", new AutoTwoBallNotHotRight());
 		
 		
 		SmartDashboard::PutData("Autonomous Modes", autoChooser);

@@ -6,7 +6,7 @@ CheckIntakeSensors::CheckIntakeSensors() {
 
 // Called just before this Command runs the first time
 void CheckIntakeSensors::Initialize() {
-	printf("HasBall: %s\n", intake->HasBall()?"Yes":"No");
+//	printf("HasBall: %s\n", intake->HasBall()?"Yes":"No");
 }
 
 // Called repeatedly when this Command is scheduled to run

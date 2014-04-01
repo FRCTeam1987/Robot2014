@@ -15,6 +15,8 @@ void _GLOBAL__I__ZN10PneumaticsC2Ev();
 
 void _GLOBAL__I__ZN11AutoRelatchC2Ev();
 
+void _GLOBAL__I__ZN11AutoShootIfC2Ev();
+
 void _GLOBAL__I__ZN11CommandBaseC2EPKc();
 
 void _GLOBAL__I__ZN12PrimeShooterC2EN7Shooter16SHOOTER_POSITIONE();
@@ -23,11 +25,15 @@ void _GLOBAL__I__ZN12RunCollectorC2Ev();
 
 void _GLOBAL__I__ZN12ShootPatternC2Ev();
 
+void _GLOBAL__I__ZN13DecideAutoHotC2Ev();
+
 void _GLOBAL__I__ZN13RunCompressorC2Ev();
 
 void _GLOBAL__I__ZN14AutoDriveTimedC2Ev();
 
 void _GLOBAL__I__ZN14AutoOneBallHotC2Ev();
+
+void _GLOBAL__I__ZN14AutoTwoBallHotC2Ev();
 
 void _GLOBAL__I__ZN14BackWinchMotorC2Ev();
 
@@ -99,9 +105,13 @@ void _GLOBAL__I__ZN20PrimeShooterSequenceC2EN7Shooter16SHOOTER_POSITIONE();
 
 void _GLOBAL__I__ZN21AutoOneBallLeftNotHotC2Ev();
 
+void _GLOBAL__I__ZN21AutoTwoBallNotHotLeftC2Ev();
+
 void _GLOBAL__I__ZN22AutoEngageShooterLatchC2Ev();
 
 void _GLOBAL__I__ZN22AutoOneBallRightNotHotC2Ev();
+
+void _GLOBAL__I__ZN22AutoTwoBallNotHotRightC2Ev();
 
 void _GLOBAL__I__ZN22ReleaseBrakeForPrimingC2Ev();
 
@@ -115,7 +125,7 @@ void _GLOBAL__I__ZN5ShootC2Ev();
 
 void _GLOBAL__I__ZN6IntakeC2Ev();
 
-void _GLOBAL__I__ZN6RotateC2Eb();
+void _GLOBAL__I__ZN6RotateC2Ebf();
 
 void _GLOBAL__I__ZN7AutoHotC2Ev();
 
@@ -196,13 +206,16 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN10CameraLEDsC2Ev,
     _GLOBAL__I__ZN10PneumaticsC2Ev,
     _GLOBAL__I__ZN11AutoRelatchC2Ev,
+    _GLOBAL__I__ZN11AutoShootIfC2Ev,
     _GLOBAL__I__ZN11CommandBaseC2EPKc,
     _GLOBAL__I__ZN12PrimeShooterC2EN7Shooter16SHOOTER_POSITIONE,
     _GLOBAL__I__ZN12RunCollectorC2Ev,
     _GLOBAL__I__ZN12ShootPatternC2Ev,
+    _GLOBAL__I__ZN13DecideAutoHotC2Ev,
     _GLOBAL__I__ZN13RunCompressorC2Ev,
     _GLOBAL__I__ZN14AutoDriveTimedC2Ev,
     _GLOBAL__I__ZN14AutoOneBallHotC2Ev,
+    _GLOBAL__I__ZN14AutoTwoBallHotC2Ev,
     _GLOBAL__I__ZN14BackWinchMotorC2Ev,
     _GLOBAL__I__ZN14ExampleCommandC2Ev,
     _GLOBAL__I__ZN14LowerIntakeArmC2Ev,
@@ -238,15 +251,17 @@ void (*_ctors[])() =
     _GLOBAL__I__ZN20BackWinchForLatchingC2Ev,
     _GLOBAL__I__ZN20PrimeShooterSequenceC2EN7Shooter16SHOOTER_POSITIONE,
     _GLOBAL__I__ZN21AutoOneBallLeftNotHotC2Ev,
+    _GLOBAL__I__ZN21AutoTwoBallNotHotLeftC2Ev,
     _GLOBAL__I__ZN22AutoEngageShooterLatchC2Ev,
     _GLOBAL__I__ZN22AutoOneBallRightNotHotC2Ev,
+    _GLOBAL__I__ZN22AutoTwoBallNotHotRightC2Ev,
     _GLOBAL__I__ZN22ReleaseBrakeForPrimingC2Ev,
     _GLOBAL__I__ZN24AutoBackWinchForLatchingC2Ev,
     _GLOBAL__I__ZN2OIC2Ev,
     _GLOBAL__I__ZN5DriveC2Ev,
     _GLOBAL__I__ZN5ShootC2Ev,
     _GLOBAL__I__ZN6IntakeC2Ev,
-    _GLOBAL__I__ZN6RotateC2Eb,
+    _GLOBAL__I__ZN6RotateC2Ebf,
     _GLOBAL__I__ZN7AutoHotC2Ev,
     _GLOBAL__I__ZN7ChassisC2Efffb,
     _GLOBAL__I__ZN7ShiftUpC2Ev,
@@ -294,6 +309,8 @@ void _GLOBAL__D__ZN10PneumaticsC2Ev();
 
 void _GLOBAL__D__ZN11AutoRelatchC2Ev();
 
+void _GLOBAL__D__ZN11AutoShootIfC2Ev();
+
 void _GLOBAL__D__ZN11CommandBaseC2EPKc();
 
 void _GLOBAL__D__ZN12PrimeShooterC2EN7Shooter16SHOOTER_POSITIONE();
@@ -302,11 +319,15 @@ void _GLOBAL__D__ZN12RunCollectorC2Ev();
 
 void _GLOBAL__D__ZN12ShootPatternC2Ev();
 
+void _GLOBAL__D__ZN13DecideAutoHotC2Ev();
+
 void _GLOBAL__D__ZN13RunCompressorC2Ev();
 
 void _GLOBAL__D__ZN14AutoDriveTimedC2Ev();
 
 void _GLOBAL__D__ZN14AutoOneBallHotC2Ev();
+
+void _GLOBAL__D__ZN14AutoTwoBallHotC2Ev();
 
 void _GLOBAL__D__ZN14BackWinchMotorC2Ev();
 
@@ -378,9 +399,13 @@ void _GLOBAL__D__ZN20PrimeShooterSequenceC2EN7Shooter16SHOOTER_POSITIONE();
 
 void _GLOBAL__D__ZN21AutoOneBallLeftNotHotC2Ev();
 
+void _GLOBAL__D__ZN21AutoTwoBallNotHotLeftC2Ev();
+
 void _GLOBAL__D__ZN22AutoEngageShooterLatchC2Ev();
 
 void _GLOBAL__D__ZN22AutoOneBallRightNotHotC2Ev();
+
+void _GLOBAL__D__ZN22AutoTwoBallNotHotRightC2Ev();
 
 void _GLOBAL__D__ZN22ReleaseBrakeForPrimingC2Ev();
 
@@ -394,7 +419,7 @@ void _GLOBAL__D__ZN5ShootC2Ev();
 
 void _GLOBAL__D__ZN6IntakeC2Ev();
 
-void _GLOBAL__D__ZN6RotateC2Eb();
+void _GLOBAL__D__ZN6RotateC2Ebf();
 
 void _GLOBAL__D__ZN7AutoHotC2Ev();
 
@@ -465,13 +490,16 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN10CameraLEDsC2Ev,
     _GLOBAL__D__ZN10PneumaticsC2Ev,
     _GLOBAL__D__ZN11AutoRelatchC2Ev,
+    _GLOBAL__D__ZN11AutoShootIfC2Ev,
     _GLOBAL__D__ZN11CommandBaseC2EPKc,
     _GLOBAL__D__ZN12PrimeShooterC2EN7Shooter16SHOOTER_POSITIONE,
     _GLOBAL__D__ZN12RunCollectorC2Ev,
     _GLOBAL__D__ZN12ShootPatternC2Ev,
+    _GLOBAL__D__ZN13DecideAutoHotC2Ev,
     _GLOBAL__D__ZN13RunCompressorC2Ev,
     _GLOBAL__D__ZN14AutoDriveTimedC2Ev,
     _GLOBAL__D__ZN14AutoOneBallHotC2Ev,
+    _GLOBAL__D__ZN14AutoTwoBallHotC2Ev,
     _GLOBAL__D__ZN14BackWinchMotorC2Ev,
     _GLOBAL__D__ZN14ExampleCommandC2Ev,
     _GLOBAL__D__ZN14LowerIntakeArmC2Ev,
@@ -507,15 +535,17 @@ void (*_dtors[])() =
     _GLOBAL__D__ZN20BackWinchForLatchingC2Ev,
     _GLOBAL__D__ZN20PrimeShooterSequenceC2EN7Shooter16SHOOTER_POSITIONE,
     _GLOBAL__D__ZN21AutoOneBallLeftNotHotC2Ev,
+    _GLOBAL__D__ZN21AutoTwoBallNotHotLeftC2Ev,
     _GLOBAL__D__ZN22AutoEngageShooterLatchC2Ev,
     _GLOBAL__D__ZN22AutoOneBallRightNotHotC2Ev,
+    _GLOBAL__D__ZN22AutoTwoBallNotHotRightC2Ev,
     _GLOBAL__D__ZN22ReleaseBrakeForPrimingC2Ev,
     _GLOBAL__D__ZN24AutoBackWinchForLatchingC2Ev,
     _GLOBAL__D__ZN2OIC2Ev,
     _GLOBAL__D__ZN5DriveC2Ev,
     _GLOBAL__D__ZN5ShootC2Ev,
     _GLOBAL__D__ZN6IntakeC2Ev,
-    _GLOBAL__D__ZN6RotateC2Eb,
+    _GLOBAL__D__ZN6RotateC2Ebf,
     _GLOBAL__D__ZN7AutoHotC2Ev,
     _GLOBAL__D__ZN7ChassisC2Efffb,
     _GLOBAL__D__ZN7ShiftUpC2Ev,

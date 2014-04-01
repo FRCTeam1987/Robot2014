@@ -19,12 +19,12 @@ void AutoDrive::Initialize() {
 void AutoDrive::Execute() {
 //	float angle = chassis->GetGyro();
 //	chassis->AutoDrive(0.7, -angle*KP);
-	printf("LeftEncoder: %d \n", chassis->LeftEncoderGet());
-	printf("RightEncoder: %d \n", chassis->RightEncoderGet());
-	printf("LeftEncoderDistance: %lf \n", chassis->LeftEncoderGetDistance());
-	printf("RightEncoderDistance: %lf \n", chassis->RightEncoderGetDistance());
-	printf("LeftEncoderIsStopped: %s \n", chassis->LeftEncoderIsStopped()?"Yes":"No");
-	printf("RightEncoderIsStopped: %s \n", chassis->RightEncoderIsStopped()?"Yes":"No");
+//	printf("LeftEncoder: %d \n", chassis->LeftEncoderGet());
+//	printf("RightEncoder: %d \n", chassis->RightEncoderGet());
+//	printf("LeftEncoderDistance: %lf \n", chassis->LeftEncoderGetDistance());
+//	printf("RightEncoderDistance: %lf \n", chassis->RightEncoderGetDistance());
+//	printf("LeftEncoderIsStopped: %s \n", chassis->LeftEncoderIsStopped()?"Yes":"No");
+//	printf("RightEncoderIsStopped: %s \n", chassis->RightEncoderIsStopped()?"Yes":"No");
 }
 
 // Make this return true when this Command no longer needs to run execute()

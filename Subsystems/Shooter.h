@@ -52,6 +52,11 @@ public:
 	int GetPosPrimedTruss();
 	int GetPosUnprimed();
 	
+	bool GetHot();
+	void SetHot(bool);
+	void ResetHot();
+	void DecideHot();
+	
 private:
 	DoubleSolenoid * brakeSolenoid;
 	DoubleSolenoid * latchSolenoid;
@@ -72,6 +77,7 @@ private:
 	int m_posPrimedTruss;
 	int m_posUnprimed;
 	bool m_isCompetitionBot;
+	bool m_sawHot;
 };
 
 #endif

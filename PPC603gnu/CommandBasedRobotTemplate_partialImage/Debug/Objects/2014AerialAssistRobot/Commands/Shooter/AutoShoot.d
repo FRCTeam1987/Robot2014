@@ -408,7 +408,7 @@
   C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Shooter/../Intake/ForwardIntakeMotor.h \
   C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Shooter/../Intake/LowerArmForShooter.h \
   C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Shooter/../Intake/StopIntakeMotor.h \
-  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Shooter/../AutoRelatch.h \
+  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Shooter/../Autonomous/AutoRelatch.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h
 
 C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Shooter/AutoShoot.h:
@@ -1225,6 +1225,6 @@ C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Shooter/../Intake/Lower
 
 C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Shooter/../Intake/StopIntakeMotor.h:
 
-C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Shooter/../AutoRelatch.h:
+C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Shooter/../Autonomous/AutoRelatch.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h:

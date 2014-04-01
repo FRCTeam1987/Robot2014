@@ -1,9 +1,9 @@
 #include "Rotate.h"
 
-Rotate::Rotate(bool direction) {
+Rotate::Rotate(bool rotateRight, float timeout) {
 	Requires(chassis);
-	SetTimeout(.25);
-	myDir = direction;
+	SetTimeout(timeout);
+	myDir = rotateRight;
 }
 
 // Called just before this Command runs the first time

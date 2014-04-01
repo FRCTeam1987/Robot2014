@@ -185,6 +185,7 @@ OI::OI() {
 	SmartDashboard::PutData("Eye Candy - Rainbow", new RainbowPattern());
 	SmartDashboard::PutData("Eye Candy - Alliance", new AlliancePattern());
 	SmartDashboard::PutData("Eye Candy - Shoot", new ShootPattern());
+	SmartDashboard::PutData("Example Command", new ExampleCommand());
 
 }
 

@@ -174,43 +174,67 @@ CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoBackWinchForLatching.o : $(PRJ_ROOT_DIR)/Commands/AutoBackWinchForLatching.cpp $(FORCE_FILE_BUILD)
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoBackWinchForLatching.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/AutoBackWinchForLatching.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoEngageShooterLatch.o : $(PRJ_ROOT_DIR)/Commands/AutoEngageShooterLatch.cpp $(FORCE_FILE_BUILD)
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoEngageShooterLatch.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/AutoEngageShooterLatch.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoHot.o : $(PRJ_ROOT_DIR)/Commands/AutoHot.cpp $(FORCE_FILE_BUILD)
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoHot.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/AutoHot.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoOneBallHot.o : $(PRJ_ROOT_DIR)/Commands/AutoOneBallHot.cpp $(FORCE_FILE_BUILD)
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallHot.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/AutoOneBallHot.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoOneBallLeftNotHot.o : $(PRJ_ROOT_DIR)/Commands/AutoOneBallLeftNotHot.cpp $(FORCE_FILE_BUILD)
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallLeftNotHot.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/AutoOneBallLeftNotHot.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoOneBallNotHot.o : $(PRJ_ROOT_DIR)/Commands/AutoOneBallNotHot.cpp $(FORCE_FILE_BUILD)
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallNotHot.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/AutoOneBallNotHot.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoOneBallRightNotHot.o : $(PRJ_ROOT_DIR)/Commands/AutoOneBallRightNotHot.cpp $(FORCE_FILE_BUILD)
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallRightNotHot.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/AutoOneBallRightNotHot.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoRelatch.o : $(PRJ_ROOT_DIR)/Commands/AutoRelatch.cpp $(FORCE_FILE_BUILD)
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoRelatch.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/AutoRelatch.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoTwoBallNotHot.o : $(PRJ_ROOT_DIR)/Commands/AutoTwoBallNotHot.cpp $(FORCE_FILE_BUILD)
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoShootIf.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/AutoShootIf.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
-CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutonomousSequence.o : $(PRJ_ROOT_DIR)/Commands/AutonomousSequence.cpp $(FORCE_FILE_BUILD)
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoShootIfHot.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/AutoShootIfHot.cpp $(FORCE_FILE_BUILD)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallHot.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/AutoTwoBallHot.cpp $(FORCE_FILE_BUILD)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallNotHot.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/AutoTwoBallNotHot.cpp $(FORCE_FILE_BUILD)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallNotHotLeft.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/AutoTwoBallNotHotLeft.cpp $(FORCE_FILE_BUILD)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallNotHotRight.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/AutoTwoBallNotHotRight.cpp $(FORCE_FILE_BUILD)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutonomousSequence.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/AutonomousSequence.cpp $(FORCE_FILE_BUILD)
+	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
+
+
+CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/DecideAutoHot.o : $(PRJ_ROOT_DIR)/Commands/Autonomous/DecideAutoHot.cpp $(FORCE_FILE_BUILD)
 	$(TRACE_FLAG)if [ ! -d "`dirname "$@"`" ]; then mkdir -p "`dirname "$@"`"; fi;echo "building $@"; $(TOOL_PATH)ccppc $(DEBUGFLAGS_C++-Compiler) $(CC_ARCH_SPEC) -ansi -Wall  -MD -MP -mlongcall $(ADDED_C++FLAGS) $(IDE_INCLUDES) $(ADDED_INCLUDES) -DCPU=$(CPU) -DTOOL_FAMILY=$(TOOL_FAMILY) -DTOOL=$(TOOL) -D_WRS_KERNEL   $(DEFINES) -o "$@" -c "$<"
 
 
@@ -437,16 +461,22 @@ CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot
 OBJECTS_CommandBasedRobotTemplate_partialImage = CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/BroncoJoy.o \
 	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/CommandBase.o \
 	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/CommandBasedRobot.o \
-	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoBackWinchForLatching.o \
-	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoEngageShooterLatch.o \
-	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoHot.o \
-	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoOneBallHot.o \
-	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoOneBallLeftNotHot.o \
-	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoOneBallNotHot.o \
-	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoOneBallRightNotHot.o \
-	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoRelatch.o \
-	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoTwoBallNotHot.o \
-	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutonomousSequence.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoBackWinchForLatching.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoEngageShooterLatch.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoHot.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallHot.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallLeftNotHot.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallNotHot.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallRightNotHot.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoRelatch.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoShootIf.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoShootIfHot.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallHot.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallNotHot.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallNotHotLeft.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallNotHotRight.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutonomousSequence.o \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/DecideAutoHot.o \
 	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/CameraLEDs.o \
 	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Chassis/AutoDrive.o \
 	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Chassis/AutoDriveTimed.o \
@@ -516,10 +546,12 @@ CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/CommandBasedRobotTemplate_par
 force : 
 
 DEP_FILES := CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/BroncoJoy.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/CommandBase.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/CommandBasedRobot.d \
-	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoBackWinchForLatching.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoEngageShooterLatch.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoHot.d \
-	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoOneBallHot.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoOneBallLeftNotHot.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoOneBallNotHot.d \
-	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoOneBallRightNotHot.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoRelatch.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutoTwoBallNotHot.d \
-	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/AutonomousSequence.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/CameraLEDs.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Chassis/AutoDrive.d \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoBackWinchForLatching.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoEngageShooterLatch.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoHot.d \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallHot.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallLeftNotHot.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallNotHot.d \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallRightNotHot.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoRelatch.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoShootIf.d \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoShootIfHot.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallHot.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallNotHot.d \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallNotHotLeft.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallNotHotRight.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/AutonomousSequence.d \
+	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Autonomous/DecideAutoHot.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/CameraLEDs.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Chassis/AutoDrive.d \
 	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Chassis/AutoDriveTimed.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Chassis/CheckChassisSensors.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Chassis/Drive.d \
 	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Chassis/Rotate.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Chassis/ShiftDown.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/Chassis/ShiftUp.d \
 	 CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/EndOfMatchCommand.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/ExampleCommand.d CommandBasedRobotTemplate_partialImage/$(MODE_DIR)/Objects/2014AerialAssistRobot/Commands/EyeCandy/AlliancePattern.d \

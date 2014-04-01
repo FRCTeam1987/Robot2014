@@ -31,11 +31,11 @@ void CommandBase::init() {
 	bool isCompetitionBot;
 	
 	DigitalInput *botSensor = new DigitalInput(BOT_SENSOR);
-	printf("botSensor->Get() = %lu\n", botSensor->Get());
+//	printf("botSensor->Get() = %lu\n", botSensor->Get());
 	if(botSensor->Get() == 0)
 	{
 		// running on competition bot
-		printf("Running on competition bot\n");
+//		printf("Running on competition bot\n");
 		posPrimedGoal = COMPETITION_SHOOTER_POSITION_PRIMED_GOAL;
 		posPrimedTruss = COMPETITION_SHOOTER_POSITION_PRIMED_TRUSS;
 		posUnprimed = COMPETIION_SHOOTER_POSITION_UNPRIMED;
@@ -47,7 +47,7 @@ void CommandBase::init() {
 	else
 	{
 		// running on practice bot
-		printf("Running on practice bot\n");
+//		printf("Running on practice bot\n");
 		posPrimedGoal = PRACTICE_SHOOTER_POSITION_PRIMED_GOAL;
 		posPrimedTruss = PRACTICE_SHOOTER_POSITION_PRIMED_TRUSS;
 		posUnprimed = PRACTICE_SHOOTER_POSITION_UNPRIMED;

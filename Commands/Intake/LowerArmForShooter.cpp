@@ -12,7 +12,7 @@ void LowerArmForShooter::Initialize() {
 
 // Called repeatedly when this Command is scheduled to run
 void LowerArmForShooter::Execute() {
-	printf("In LowerArmForShooter::Execute()\n");
+//	printf("In LowerArmForShooter::Execute()\n");
 	intake->BackIntakeMotor();
 	intake->LowerIntakeArm();
 }

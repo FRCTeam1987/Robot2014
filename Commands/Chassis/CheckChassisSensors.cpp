@@ -11,8 +11,8 @@ void CheckChassisSensors::Initialize() {
 
 // Called repeatedly when this Command is scheduled to run
 void CheckChassisSensors::Execute() {
-	printf("LeftEncoder:%.2f, RightEncoder:%.2f\n",
-			chassis->LeftEncoderGetDistance(), chassis->RightEncoderGetDistance());
+//	printf("LeftEncoder:%.2f, RightEncoder:%.2f\n",
+//			chassis->LeftEncoderGetDistance(), chassis->RightEncoderGetDistance());
 }
 
 // Make this return true when this Command no longer needs to run execute()

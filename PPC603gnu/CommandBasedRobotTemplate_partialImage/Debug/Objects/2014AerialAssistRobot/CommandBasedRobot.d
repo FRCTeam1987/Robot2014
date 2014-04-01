@@ -403,17 +403,20 @@
   C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/../XboxController.h \
   C:/WindRiver/workspace3.3/2014AerialAssistRobot/CommandBase.h \
   C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/RunCompressor.h \
-  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/AutoOneBallHot.h \
+  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallHot.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h \
   C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Chassis/AutoDrive.h \
   C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Chassis/../../CommandBase.h \
   C:/WindRiver/workspace3.3/2014AerialAssistRobot/XboxController.h \
-  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/AutonomousSequence.h \
-  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/AutoOneBallNotHot.h \
-  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/AutoOneBallLeftNotHot.h \
-  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/AutoOneBallRightNotHot.h \
+  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutonomousSequence.h \
+  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Chassis/AutoDriveTimed.h \
+  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallNotHot.h \
+  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallLeftNotHot.h \
+  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallRightNotHot.h \
   C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Chassis/Rotate.h \
-  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/AutoTwoBallNotHot.h \
+  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallNotHot.h \
+  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallNotHotLeft.h \
+  C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallNotHotRight.h \
   C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Intake/RunCollector.h \
   C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h \
   C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Eyecandy/AlliancePattern.h \
@@ -1223,7 +1226,7 @@ C:/WindRiver/workspace3.3/2014AerialAssistRobot/CommandBase.h:
 
 C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/RunCompressor.h:
 
-C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/AutoOneBallHot.h:
+C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallHot.h:
 
 C:/WindRiver/vxworks-6.3/target/h/WPILib/Commands/CommandGroup.h:
 
@@ -1233,17 +1236,23 @@ C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Chassis/../../CommandBa
 
 C:/WindRiver/workspace3.3/2014AerialAssistRobot/XboxController.h:
 
-C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/AutonomousSequence.h:
+C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutonomousSequence.h:
 
-C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/AutoOneBallNotHot.h:
+C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Chassis/AutoDriveTimed.h:
 
-C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/AutoOneBallLeftNotHot.h:
+C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallNotHot.h:
 
-C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/AutoOneBallRightNotHot.h:
+C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallLeftNotHot.h:
+
+C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutoOneBallRightNotHot.h:
 
 C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Chassis/Rotate.h:
 
-C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/AutoTwoBallNotHot.h:
+C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallNotHot.h:
+
+C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallNotHotLeft.h:
+
+C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Autonomous/AutoTwoBallNotHotRight.h:
 
 C:/WindRiver/workspace3.3/2014AerialAssistRobot/Commands/Intake/RunCollector.h:
 

@@ -11,6 +11,6 @@ RunCollector::RunCollector() {
 	AddSequential(new ReverseIntakeMotor());
 	AddSequential(new WatchBall());
 	AddSequential(new RaiseIntakeArm());
-	AddSequential(new WaitCommand(1));
+	AddSequential(new WaitCommand(0.25));
 	AddSequential(new StopIntakeMotor());
 }

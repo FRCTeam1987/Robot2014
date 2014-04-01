@@ -12,14 +12,14 @@ void PrimeShooter::Initialize() {
 	if(desiredPosition != shooter->GetCurrentSetPoint())
 	{
 		if(shooter->IsBrakeEngaged()){
-			printf("Brake engaged - releasing (from PrimeShooter::Initialize()\n");
+//			printf("Brake engaged - releasing (from PrimeShooter::Initialize()\n");
 			shooter->ReleaseBrake();
 		}
 //		else
 //			printf("brake not engaged: %lu\n", shooter->brakeSensor->Get());
 	}
 	
-	printf("Pot Position %d\n", shooter->GetPositionSensor());
+//	printf("Pot Position %d\n", shooter->GetPositionSensor());
 }
 
 // Called repeatedly when this Command is scheduled to run
@@ -30,7 +30,7 @@ void PrimeShooter::Execute() {
 	// If the brake is engaged, do nothing
 	if(shooter->IsBrakeEngaged())
 	{
-		printf("Prime Execute: Brake Engaged\n");
+//		printf("Prime Execute: Brake Engaged\n");
 		return;
 	}
 	
@@ -49,9 +49,9 @@ void PrimeShooter::Execute() {
 		shooter->StopDriveMotor();
 		shooter->ReleaseBrake();
 		eyecandy->DisabledPattern();
-		printf("Disabling -- PositionSensor:%d, posPrimedGoal:%d (%d<%d-%d)",
-				shooter->GetPositionSensor(), posPrimedGoal,
-				shooter->GetPositionSensor(), posPrimedGoal, SHOOTER_POSITION_TOLERANCE);
+//		printf("Disabling -- PositionSensor:%d, posPrimedGoal:%d (%d<%d-%d)",
+//				shooter->GetPositionSensor(), posPrimedGoal,
+//				shooter->GetPositionSensor(), posPrimedGoal, SHOOTER_POSITION_TOLERANCE);
 		return;
 	}
 	
